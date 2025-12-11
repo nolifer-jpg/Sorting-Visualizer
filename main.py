@@ -33,7 +33,7 @@ def bubble_sort(data_array):
             if data_array[j] > data_array[j + 1]:
                 data_array[j], data_array[j + 1] = data_array[j + 1], data_array[j]
                 draw_bar(data_array)
-                time.sleep(0.1)
+                time.sleep(0.05)
 
 
 draw_bar(arr)
