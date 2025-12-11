@@ -8,9 +8,12 @@ t.speed(0)
 t.hideturtle()
 t.width(15)
 arr = np.random.randint(10, 200, size=20)
+screen = turtle.Screen()
+screen.tracer(0)
 
 
 def draw_bar(data_array):
+    t.clear()
     t.up()
     t.goto(-300, -200)
     for number in arr:
@@ -21,6 +24,7 @@ def draw_bar(data_array):
         t.up()
         t.seth(0)
         t.forward(20)
+    screen.update()
 
 
 def bubble_sort(data_array):
@@ -32,5 +36,7 @@ def bubble_sort(data_array):
                 time.sleep(0.1)
 
 
+draw_bar(arr)
+time.sleep(1)
 bubble_sort(arr)
 turtle.done()
