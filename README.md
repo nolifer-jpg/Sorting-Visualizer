@@ -69,6 +69,7 @@ if data_array[j] > data_array[j + 1]:
     time.sleep(0.05)
 ```
 🚀 Future Roadmap
+
 [ ] Add Merge Sort and Quick Sort algorithms.
 
 [ ] Add a Tkinter Control Panel to switch between algorithms.
