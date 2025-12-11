@@ -67,7 +67,7 @@ if data_array[j] > data_array[j + 1]:
     
     # 3. Pause slightly so the human eye can see it
     time.sleep(0.05)
-
+```
 🚀 Future Roadmap
 [ ] Add Merge Sort and Quick Sort algorithms.
 
