@@ -36,7 +36,7 @@ The **Algorithm Race** is a visual tool designed to demonstrate how sorting algo
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/Algorithm-Race.git](https://github.com/your-username/Algorithm-Race.git)
+    git clone [https://github.com/nolifer-jpg/Algorithm-Race.git](https://github.com/nolifer-jpg/Algorithm-Race.git)
     cd Algorithm-Race
     ```
 
